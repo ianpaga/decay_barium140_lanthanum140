@@ -5,8 +5,8 @@ Description: The code computes the probability of decay as a function of time (y
 and the cumulative distribution functions (CDF) of both isotopes as a function of time. With the code, we perform Monte Carlo simulations (MC) of the decay using 1 million events and record
 the number of counts for the decay events of Ba-140 and La-140. 
 
-To compare that the MC simulation gives correct results, we can compare with the experimentally known half-lifetimes of Ba140 = 12.8 days and La140 = 1.6781 days.
-With these lifetimes, one can simply check the MC results and plot them on top of the analytical solutions exp(-lifetime * t) and see if it is a good match and quantify the error
+To compare that the MC simulation gives correct results, we can compare with the experimentally known half-lifetime of Ba140 = 12.8 days.
+With this lifetime, one can check the MC results and plot them on top of the analytical solutions exp(-lifetime * t) and see if it is a good match and quantify the error
 between the analytical curve and the MC-predicted curve. 
 
 See figures in /plots for explicit results. You can also run the Jupyter notebook Ba-140_La-140.ipynb yourself.
